@@ -1,0 +1,38 @@
+footer{
+	color: white;
+	height: 200px;
+	/* border: 1px solid red; */
+	padding: 2rem 5rem;
+	background-color: var(--primary-color-alt);
+	display: flex;
+	justify-content: space-between;
+	/* position: ; */
+	bottom: 0;
+	right: 0;
+	left: 0;
+
+}
+
+footer h3 ,a{
+	margin-bottom: .5rem;
+}
+
+.content{
+	margin-bottom: 1rem;
+}
+
+.content a{
+	color: white;
+	font-size: small;
+}
+
+
+.socials{
+	display: flex;
+	flex-direction: column;
+}
+
+.socials .links{
+	display: flex;
+	flex-direction: column;
+}

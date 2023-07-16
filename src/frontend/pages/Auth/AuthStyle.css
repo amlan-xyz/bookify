@@ -1,0 +1,73 @@
+
+.auth_body{
+	min-height: 100vh;
+}
+
+.auth_container{
+	/* border: 1px solid red; */
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+	min-height: 50vh;
+	min-width: 400px;
+	padding: 1.5rem;
+	background-color: var(--secondary-color-alt);
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ;
+}
+
+.auth_container hr{
+	border-top:1px solid ;
+	margin-top: .5rem;
+}
+
+.auth_container form{
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.auth_container label ,input,button{
+	margin-bottom: .5rem;
+}
+
+.auth_container input{
+	padding: .5rem;
+}
+
+.auth_btn{
+	padding: .8rem;
+	margin-top: 1rem;
+	background-color: var(--primary-color);
+	color: white;
+	border: none;
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ;
+}
+
+.alternate_links{
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.alternate_links button{
+	margin-top: .5rem;
+	width: max-content;
+	padding: .5rem .8rem;
+	background-color: var(--primary-color);
+	color: white;
+	border: none;
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ;
+}
+
+.password_checkbox{
+	display: flex;
+	margin-top: .5rem;
+}
+
+.password_checkbox label{
+	margin-right: 1rem;
+}
+

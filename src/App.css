@@ -1,5 +1,39 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  outline: none;
+}
+
+:root{
+  --primary-color:#0B2447;
+  --primary-color-alt:#19376D;
+  --secondary-color:#576CBC;
+  --secondary-color-alt:#A5D7E8;
+}
+
+a{
+  text-decoration: none;
+}
+
+main{
+  margin: 2rem 5rem;
+}
+
+.icon{
+  color:white;
+}
+
+.highlight{
+  color:var(--primary-color);
+  font-weight: 600;
 }
 
 .App-logo {

@@ -1,0 +1,47 @@
+.jumbotron{
+	/* border: 1px solid red; */
+	height: 500px;
+	margin-bottom: 2rem;
+	margin-top: 120px;
+	position: relative;
+	/* z-index: -1; */
+}
+
+.jumbotron img{
+	height: 500px;
+	width: 100%;
+	/* z-index: -1; */
+}
+
+.jumbotron div{
+	position: absolute;
+	/* z-index: -1; */
+	top: 50%;
+	left: 80%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 16px;
+	padding: 12px 24px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.jumbotron p{
+	margin-top: 1rem;
+}
+
+.jumbotron button{
+	/* z-index: 100; */
+	/* position: absolute; */
+	padding: .8rem 4rem;
+	border: none;
+	background-color: var(--primary-color);
+	color:  white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-size: 1rem;
+}
+.shopping_bag{
+	margin-left: .5rem;
+
+}

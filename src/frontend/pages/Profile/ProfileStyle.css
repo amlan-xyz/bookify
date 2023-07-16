@@ -1,0 +1,128 @@
+.profile_body{
+	min-height: 75vh;
+	/* border: 1px solid red; */
+	margin: 10rem 5rem 2rem 5rem;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+}
+
+.profile_heading{
+	width: 600px;
+	min-height: 300px;
+	/* border: 1px solid blue; */
+	margin-right: 1rem;
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ;
+	padding: 1rem ;
+}
+
+.profile_heading header{
+	text-align: center;
+	font-size: 1.3rem;
+	color: var(--primary-color);
+	margin-bottom: .5rem;
+}
+
+
+
+.profile_btn{
+	margin-top: 1rem;
+	padding: .5rem 1rem;
+	border: none;
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ; 
+	background-color: var(--primary-color);
+	color: aliceblue;
+	margin-bottom: 1rem;
+}
+
+.modal_wrapper {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background-color: rgba(189, 189, 189, 0.9);
+  }
+  
+  .modal_container {
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ; 
+	position: fixed;
+	max-width: 30rem;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #ffffff;
+	padding: 1.5rem;
+  }
+
+.close_btn{
+	padding: .3rem .8rem;
+	border: none;
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ; 
+	background-color: var(--primary-color);
+	color: aliceblue;
+}
+
+.form_heading{
+	text-align: center;
+	font-size: 1.3rem;
+	color: var(--primary-color);
+	margin-bottom: .5rem;
+}
+
+.address_form{
+	display: flex;
+	flex-direction: column;
+	margin-top: .8rem;
+}
+
+.address_form input{
+	width: 400px;
+	padding: .3rem 1rem;
+}
+
+.submit_btn{
+	margin-top: .5rem;
+	padding: .5rem .8rem;
+	border: none;
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ; 
+	background-color: var(--primary-color);
+	color: aliceblue;
+}
+
+.dummy_btn{
+	width: 100%;
+	margin-top: .5rem;
+	padding: .5rem .8rem;
+	border: none;
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ; 
+	background-color: var(--secondary-color-alt);
+	color:var(--primary-color) ;
+}
+
+.address{
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ; 
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.address div{
+	display: flex;
+	justify-content: space-between;
+}
+
+.address p{
+	margin-bottom: .5rem;
+}
+
+.address button{
+	padding: .2rem .5rem;
+	background-color: var(--primary-color);
+	color: #ffffff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.3), 0 0 40px rgba(0,0,0,.1) ; 
+}
+
+
+.profile_heading hr{
+	margin-bottom: 1rem;
+}
