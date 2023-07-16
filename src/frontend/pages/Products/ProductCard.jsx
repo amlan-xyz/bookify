@@ -14,7 +14,7 @@ export function Card({item}){
 	const {wishlist,addToWishlist,removeFromWishlist}=useContext(WishlistContext)
 	const {isLoggedIn}=useContext(AuthContext)
 
-	const {_id,title,image,author,price}=item;
+	const {_id,title,image,author,price,rating}=item;
 
 	const navigate=useNavigate();
 
@@ -59,7 +59,8 @@ export function Card({item}){
       <div className="product_card_body">
         <h4 className="product_card_heading">{title}</h4>
 		<small>by {author}</small>
-		<p>&#8377;  {price}</p>
+		<p>Rating : {rating}
+		<br />Price :	&#8377;  {price}</p>
 		{
 			cart.find(item=>item._id===_id)?<button onClick={(e)=>{
 				e.preventDefault();

@@ -41,7 +41,7 @@ export function Wishlist(){
 			<ul>
 				{
 					wishlist.map(item=>{
-						const {_id,title,image,author,price}=item;
+						const {_id,title,image,author,price,rating}=item;
 						return (
 							<li className="product_card">
 						<button onClick={(e)=>{
@@ -56,7 +56,7 @@ export function Wishlist(){
       <div className="product_card_body">
         <h4 className="product_card_heading">{title}</h4>
 		<small>by {author}</small>
-		<p>&#8377;  {price}</p>
+		<p>Rating : {rating} <br /> Price : &#8377;  {price}</p>
 		
 			{
 				cart.find(item=>item._id===_id)?<button onClick={(e)=>{
