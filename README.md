@@ -5,8 +5,7 @@ Bookify is a e-commerce application built using ReactJS.
 ## How to install and run locally ?
 
 ```
-$[git clone https://github.com/theweird0ne/bookify.git](https://github.com/theweird0ne/bookify.git)
-$cd bookify
+$git clone https://github.com/theweird0ne/bookify.git
 $npm install
 $npm start
 ```
